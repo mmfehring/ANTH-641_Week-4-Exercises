@@ -19,15 +19,26 @@ An extremely useful tool for this is called OpenRefine – a free, open source t
 10.	This will bring up a box on the left side of your screen that groups all of the different types of entries in this field, with a small number next to the text that represents how many times each are used in the database. For example, Grid C- 3 is used one time, and None is used nine times. 
 
 ![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image5.png)
+
 11.	We could go through this list of 269 choices manually and look for redundancies, or we can ask the program to look for us. If you click on the “Cluster” button on the top of the Context (4) section, you will see that OpenRefine grouped similar text entries into single groups. In this case, it seems that many of the “Special Project” labels included an extra space in between Project and the Number. One space…that’s how easy it is to make a mistake that affects the usability of an entire data record!
+
 12.	We can combine these cell values together so that these mistaken entries won’t cause us problems in their future use. Click on the box in the Merge? column for the Special Project clustered values. Then click on Merge Selected & Re-Cluster at the bottom of the screen. 
+
 ![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image6.png)
+
 13.	You will now see that those clusters are gone from your list of clusters. The only cluster that remains is a cluster of two: Trench 69 and Trench 69? Should we merge these two values? The answer is probably not – it appears that the recording strategy at this excavation was to build in uncertainty into the records. Whoever was entering this data may not have known if this was supposed to be Trench 69 or not. This is not an ideal situation for this data, but we’d have to do some additional digging through the data and excavation notes to understand why this choice was made and to be comfortable changing the data. Use this as an opportunity to think about how little choices during data recording can affect the long-term use of archaeological datasets. 
+
 14.	Close the cluster and edit box and return to manually scrolling through the Context (4) filter on the left side of the screen – can you find any other issues or discrepancies? Think about what are the best ways to make those changes to clean the data and go ahead and edit the information. In your README.md file in your ANTH 641_Week 4 repo, __write__ out the __changes__ you made in this dataset. 
+
 15.	Next go back to the main project data table and choose to look at the Text Facet from the column “Label.” Once again, look at the clusters that OpenRefine generates for you. What are some of the issues you see with different recording in these clusters? What are some changes that you made in grouping these data values together and what are clusters that you had to leave how they were? Again, __note__ in your README.md file what you’ve changed. 
-16.	When you’ve cleaned these two fields (Context (4) and Label), export the project as Petra Excavation Data_Cleaned. Go to your GitHub page and create a new repo titled “ANTH 641_Week 4.” Upload your cleaned .csv file to your Week 4 GitHub page. 
+
+16.	When you’ve cleaned these two fields (Context (4) and Label), export the project as Petra Excavation Data_Cleaned. Go to your GitHub page and create a new repo titled “ANTH 641_Week 4.” Upload your cleaned .csv file to your Week 4 GitHub page.
+
 17.	Next, begin a new project by clicking on the “Open…” button on the top right of the page. Load your Petra Animal Bones csv file. 
+
 18.	Now that you know how to look for and standardize data fields, clean the fields “Common Name” and “Element.” Export the project as Petra Animal Bones_Cleaned to a known place on your computer and upload it to this week’s GitHub repo. In your README.md file in your ANTH 641_Week 4 repo, __write__ out the __changes__ you made in this dataset.
+
 19.	Finally, load Petra Pottery Data file into OpenRefine. When you begin to explore the data table, you’ll notice there isn’t much cleaning that needs to be done – fields are filled out fairly consistently across the table. However, scroll to the last column titled, “Description.” This description is taken from the ceramics report that can be viewed on Open Context [here](https://opencontext.org/media/83CA6A5A-3FDF-4F71-7C01-7CF023D1EA27). Will a field such as this help you were you to use these data for further analysis or comparison, why or why not? Think about what makes a useful field in a database or data table; what types of information can be used for larger scale analysis? You can elaborate on what you learned here in your blog post. 
+
 20.	You won’t have edited anything on this file but upload it into your ANTH 641_Week 4 repository on GitHub so that you can access it later. 
 
