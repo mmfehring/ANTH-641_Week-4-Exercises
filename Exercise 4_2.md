@@ -6,7 +6,7 @@ An extremely useful tool for this is called OpenRefine – a free, open source t
 1.	Make sure OpenRefine is downloaded and installed on your local machine. If it is not, let your instructor know. 
 2.	We’re next going to find the data we’ll work with to “clean.” Check out the Petra Great Temple Excavations data published on Open Context [here](https://opencontext.org/projects/A5DDBEA2-B3C8-43F9-8151-33343CBDC857). Read the background to the project given in the project abstract. These excavations produced many different types of data, some of which you can see at the bottom of the project page under “Related Data Tables for Download.” 
 3.	We will use two different data tables to test out our skills in database cleaning using OpenRefine. First, click on the table titled “Petra Great Temple Excavation Trenches.” On the next page, click on the blue button on the top right corner of the page, Download CSV. Note a folder on your local hard drive where you are downloading this file to and name it “Petra Excavation Trenches Data.”
-
+![alt text](ANTH-641_Week-4/Images/Image1)
 4.	Repeat the same process for the data table titled “Petra Great Temple Pottery” and name the file “Petra Pottery Data.” And repeat the same process for the data table titled “__Petra Great Temple Animal Bones__” and title it “__Petra Animal Bones__.”
 5.	Click on the openrefine application that is downloaded on your hard drive. 
 6.	This will open your internet browser – while OpenRefine uses Chrome as its interface, it does not transfer your data to an external server (it remains safe on your own device). Click on the Choose Files button and find your “Petra Excavation Trenches Data” file and load it into OpenRefine by clicking “Next >>”
