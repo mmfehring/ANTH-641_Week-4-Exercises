@@ -10,19 +10,31 @@ For this exercise we will work from a relational database created for a PhD diss
 
 2.	Open “Frie-DissDatabase.accdb.” Click on the “Database Tools” tab and click on “Relationships.” Note the different tables that are included in this database.  
 
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image7.jpg)
+
 3.	In a relational database each table represents a discrete category of information, which is then linked to one another by a common field. The lines between each table represent a connection between the two fields – this means that if you list “Brezje – Gomile” for a field in Table 1, that link will connect the record in Table 2 with the same entry in that field. These connections are sometimes referred to as hierarchies, because they represent different scales of information – artifacts might be at the lowest scale, while the site, region, or country might be the largest scale. 
 
 4.	Click on the Site Form on the left side of the screen. A form records the same information as the equivalent Table. A form is just a different way to represent the data recorded in a table – some people find forms to be an easier way to view data in a table. In the Site Form, note what types of data are recorded here and why it would be important to record that information.
 
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image8.jpg)
+
 5. Next, open the Artifact Form as you did for the Site Form (just click OK when a box pops up). Click in the “Artifact Type” field. Then click the “Filter” button on the Home dashboard. Make sure ONLY the artifact type “Belt Plate” is selected. How many artifact records are left after you applied this filter? (Hint: look at the bottom right of the form). This number represents all of the belt plates recorded in this dataset.	
+
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image9.jpg)
 
 6. A benefit to organizing data in this relational form is that you can utilize data in multiple tables to identify patterns, while maintaining a “tidier” organization of different categories of data. Queries are simply more complex finds/filters – they allow you to specify which fields you want to assess, even from different tables at the same time (ex: how many women were buried with fibulae in this dataset). Let’s try to run a query on our data. Under the Create tab, click on Query Design. Add the tables, “Artifact,” “Site,” “Context,” “ArtifactDesc.” 
 
 7.	Next, we’re going to choose which fields we’d like to include in our query. In the first column on the bottom of the screen, use the drop-down menu to choose the field Site.Site. This is indicating that we want the name of the site to show up in our query. Proceed to add the following fields to each of the next columns: Site.Date, Context.Tum#, Context.Grave#, Artifact.Species, Context.Published Gender, ArtifactDesc.ArtifactDesc. 
 
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image10.png)
+
 8.	Then click Run at the top “Design” tab. You will now find a new table that includes data from four different tables. You should have returned 576 records (the total number of artifacts in the study).
 
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image11.png)
+
 9.	Let’s narrow our query, to try and identify some meaningful patterns in the data. Go back to the query design at the bottom right side of the table. 
+
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image12.png)
 
 10.	We want to see all of the fibulae found in graves associated with female burials. First, in the ArtifactDesc column, type in “Fibula” in the row titled Criteria: Then, in the Published Gender column, type in Like “Female” in the Criteria: row. This limits our query to include only records where the artifact was a fibula and if the grave was designated as a Female, Probable Female, of Male and Female burial. You should come up with 19 records. Make sure to save your query. 
 
@@ -31,6 +43,8 @@ For this exercise we will work from a relational database created for a PhD diss
 12.	There are even more tools that you can use to quantify different relationships between the data. Crosstabs are specialized queries to assess how often two variables co-occur. Let’s create one and look at how the animals that are represented on artifacts change depending on the gender designation of the associated burial. Begin a query as you did before and include the Species table and the Context table. 
 
 13.	Click on the Crosstab icon in the Design tab at the top. In your first column at the bottom half of the page choose the Species.CommonName field. In the Crosstab: row, choose this field as “Row Heading” and Sort by “Ascending.” In the second column, choose Context.Published Gender and make it your “Column Heading” and “Descending.” The third column is also Species.CommonName – change the Total: row to say “Count,” and choose “Value” from the Crosstab: drop-down menu. For each crosstab, you need one Row, one Column, and one Value. Then hit the Run button. 
+
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image13.png)
 
 14.	Make sure to save your crosstab.
 
