@@ -20,7 +20,7 @@ For this exercise we will work from a relational database created for a PhD diss
 
 5. Next, open the Artifact Form as you did for the Site Form (just click OK when a box pops up). Click in the “Artifact Type” field. Then click the “Filter” button on the Home dashboard. Make sure ONLY the artifact type “Belt Plate” is selected. How many artifact records are left after you applied this filter? (Hint: look at the bottom right of the form). This number represents all of the belt plates recorded in this dataset.	
 
-![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image9.jpg)
+![alt text](https://github.com/kgarstki/ANTH-641_Week-4/blob/master/Images/Image9.png)
 
 6. A benefit to organizing data in this relational form is that you can utilize data in multiple tables to identify patterns, while maintaining a “tidier” organization of different categories of data. Queries are simply more complex finds/filters – they allow you to specify which fields you want to assess, even from different tables at the same time (ex: how many women were buried with fibulae in this dataset). Let’s try to run a query on our data. Under the Create tab, click on Query Design. Add the tables, “Artifact,” “Site,” “Context,” “ArtifactDesc.” 
 
